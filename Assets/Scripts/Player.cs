@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Mover))]
-public class PlayerInputController : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private PlayerInput _playerInput;
     private Mover _mover;

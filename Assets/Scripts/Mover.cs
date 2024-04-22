@@ -6,8 +6,7 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] private float _movingSpeed = 5f;
     [SerializeField] private float _lookingSpeed = 5f;
-    [SerializeField] private float _verticalLookingSpeed = 5f;
-    [SerializeField] private float _gravityScale = 100f;
+    [SerializeField] private float _gravityScale = 10f;
     [SerializeField] private Transform _cameraTransform;
 
     private CharacterController _characterController;
